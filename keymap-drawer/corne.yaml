@@ -149,43 +149,43 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   SHORTCUTS:
   - Gui+Alt+$$mdi:keyboard-esc$$
+  - {t: Ctl+`, s: Ctl+~}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Sft+Gui+T
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
-  - Sft+Gui+Z
-  - Sft+Gui+G
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Alt+Ins
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-caps$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Sft+Gui+2, s: Sft+Gui+@}
-  - {t: Sft+Gui+3, s: Sft+Gui+#}
-  - {t: Sft+Gui+4, s: Sft+Gui+$}
-  - {t: Sft+Gui+5, s: Sft+Gui+%}
+  - Ctl+A
+  - Alt+F12
+  - Ctl+D
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Alt+Sft+H
-  - Gui+{
-  - Gui+}
-  - Sft+Alt+L
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - GLOBE
+  - Ctl+Z
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: C, h: '$$mdi:apple-keyboard-command$$'}
+  - Ctl+C
+  - Ctl+V
   - {t: V, h: '$$mdi:apple-keyboard-command$$'}
-  - Sft+Gui+V
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Sft+Alt+B
-  - {t: Alt+=, s: Alt++}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
