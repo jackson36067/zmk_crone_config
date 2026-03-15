@@ -2,9 +2,9 @@
 # Build for only keymap files
 # 编译矩阵配置
 include:
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: corne_left nice_view_adapter nice_view
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: corne_right nice_view_adapter nice_view
     #snippet: zmk-usb-logging
   # uncomment this when needed
