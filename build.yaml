@@ -2,9 +2,9 @@
 # Build for only keymap files
 include:
   - board: corne_left
-    shield: nice_view
+    shield: nice_nano
   - board: corne_right
-    shield: nice_view
+    shield: nice_nano
   #snippet: zmk-usb-logging
   # uncomment this when needed
   # - board: corne_left
