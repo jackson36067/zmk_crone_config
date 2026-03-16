@@ -103,15 +103,19 @@
 &kp GLOBE           &kp LC(Z)      &trans       &kp LC(C)       &kp LC(V)  &kp LG(V)      &trans            &trans          &none   &none   &trans          &trans  &trans  &trans
                                                 &kp LEFT_SHIFT  &trans     &kp LG(SPACE)                                    &trans  &trans  &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp 0 0>;
         };
 
         layer_4 {
             bindings = <
-&trans  &trans      &kp LG(LS(W))  &trans      &trans      &trans                        &trans          &kp LG(Y)  &kp LG(U)  &kp LG(I)  &kp LG(O)  &kp LG(P)  &kp LG(LS(P))
-&trans  &kp LG(N1)  &kp LG(N2)     &kp LG(N3)  &kp LG(N4)  &kp LG(N5)            &trans  &trans  &trans  &trans     &trans     &trans     &trans     &trans     &trans
-&trans  &kp LG(N6)  &kp LG(N7)     &kp LG(N8)  &kp LG(N9)  &kp LG(B)   &trans            &trans          &kp LG(N)  &trans     &trans     &trans     &trans     &trans
-                                   &trans      &trans      &trans                                        &trans     &trans     &trans
+&trans  &trans      &kp LG(LS(W))  &none       &none       &none                        &trans          &kp LG(Y)  &kp LG(U)  &kp LG(I)  &kp LG(O)  &kp LG(P)  &kp LG(LS(P))
+&trans  &kp LG(N1)  &kp LG(N2)     &kp LG(N3)  &kp LG(N4)  &kp LG(N5)           &trans  &trans  &trans  &trans     &trans     &trans     &trans     &trans     &trans
+&trans  &kp LG(N6)  &kp LG(N7)     &kp LG(N8)  &kp LG(N9)  &kp LG(B)   &none            &trans          &kp LG(N)  &trans     &trans     &trans     &trans     &trans
+                                   &trans      &trans      &trans                                       &trans     &trans     &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
     };
 };
